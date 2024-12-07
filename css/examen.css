@@ -1,0 +1,78 @@
+.site-header {
+    background-color: black;
+    padding: 2rem 0;
+}
+
+
+/* Principal de nostros*/
+
+
+/* Con GRID*/
+
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 2rem;
+}
+
+
+/* con FLEX
+.contenido-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-nosotros .imagen,
+.contenido-nosotros .texto-nosotros {
+    flex-basis: calc(50% - 1rem);
+}
+*/
+
+
+/******/
+
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.texto-nosotros p {
+    line-height: 1.8;
+}
+
+
+/*   ANUNCIOS ****************************/
+
+
+/* Estas propiedades deben ir en STYLE2*/
+
+.contenedor-anuncios {
+    flex-wrap: wrap;
+}
+
+.anuncio {
+    margin-bottom: 1.3rem;
+}
+
+
+/* Hasta aqui deben ir en STYLE2*/
+
+.contenido-etiquetas {
+    padding: 0 2rem;
+}
+
+.contenido-etiquetas h3,
+.contenido-etiquetas p {
+    margin: 0;
+}
+
+.contenido-etiquetas h3 {
+    padding: 4rem 0 1.5rem 0;
+    font-weight: 300;
+}
+
+.contenido-etiquetas p {
+    line-height: 2;
+}

@@ -1,0 +1,33 @@
+/*Seccion Contactos ****/
+.imagen-contacto{
+    margin-top: 3rem;
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+
+    display: flex;
+    align-items: center;
+    ;
+}
+.contacto-contenido{
+    flex: 1;
+    color: white;
+}
+.contacto-contenido p{
+    font-size: 1.5rem;
+}
+/***************** FOOTER*/
+.footer{
+    background-color: black;
+    margin:0;
+}
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content:  space-between;
+}
+.derechos{
+    margin: 0;
+    color: white;
+}

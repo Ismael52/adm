@@ -1,0 +1,24 @@
+/* PAra el pbloque sobre nosotros*/
+.seccion{
+    margin-top: 2rem;   
+    margin-bottom: 2rem;
+}
+.letra-300{
+    font-weight: 300; /* tamaño de letra*/
+}
+.titulocentrado{    
+    text-align: center;  
+      
+}
+.icono-contenido{
+    display: flex;
+    justify-content: space-between;
+}
+.icono{
+   flex-basis: calc(33.3% - 1rem); /* espaciado entre columnas calc() para hacer calculos matematicos*/
+   text-align: center;
+   line-height: 1.5;  /* espaciado interlineal*/
+}
+.icono h3{
+    text-transform: uppercase;
+}
